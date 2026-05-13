@@ -1,13 +1,13 @@
-# 📝 Notes App — Week 10: Dependency Injection & Testing
+# Notes App — Week 10: Dependency Injection & Testing
 
-**Nama:** Stevanus Cahya Anggara  
-**NIM:** 123140038  
+**Nama:** Annisa Al-Qoriah
+**NIM:** 123140030
 **Mata Kuliah:** Pengembangan Aplikasi Mobile — ITERA  
 **Pertemuan:** 10 — Testing dan Dependency Injection
 
 ---
 
-## 📋 Deskripsi Aplikasi
+## Deskripsi Aplikasi
 
 Aplikasi catatan (Notes App) berbasis **Kotlin Multiplatform (KMP)** dengan target Android, dibangun menggunakan:
 
@@ -19,7 +19,7 @@ Aplikasi catatan (Notes App) berbasis **Kotlin Multiplatform (KMP)** dengan targ
 
 ---
 
-## 🏗️ Arsitektur
+## Arsitektur
 
 Aplikasi mengikuti pola **MVVM (Model-View-ViewModel)** dengan **Clean Architecture** sederhana:
 
@@ -45,7 +45,7 @@ Aplikasi mengikuti pola **MVVM (Model-View-ViewModel)** dengan **Clean Architect
 
 ---
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 composeApp/src/
@@ -109,7 +109,7 @@ composeApp/src/
 
 ---
 
-## 🔧 Dependency Injection (Koin)
+## Dependency Injection (Koin)
 
 Koin dikonfigurasi dengan **2 modul utama**:
 
@@ -132,7 +132,7 @@ val viewModelModule = module {
 
 ---
 
-## 🧪 Daftar Test Cases
+## Daftar Test Cases
 
 ### Unit Test: NoteRepository (7 test cases)
 
@@ -179,7 +179,7 @@ val viewModelModule = module {
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Library | Versi | Kegunaan |
 |---|---|---|
@@ -194,7 +194,7 @@ val viewModelModule = module {
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Menjalankan Unit Test
 ```bash
@@ -218,7 +218,7 @@ val viewModelModule = module {
 
 ---
 
-## ✅ Checklist Implementasi
+## Checklist Implementasi
 
 - [x] Koin DI terkonfigurasi dengan `dataModule` dan `viewModelModule`
 - [x] `initKoin()` dipanggil saat app start di `MainActivity.onCreate()`
@@ -236,12 +236,12 @@ val viewModelModule = module {
 
 ---
 
-# 📸 Screenshot
+# Screenshot
 
-![HasilCoverage](https://github.com/user-attachments/assets/726fcff3-0016-4eb6-a1c5-db611449d84a)
-![HasilTest](https://github.com/user-attachments/assets/8de4e836-5cf4-42b9-8c6c-d83febb60ff0)
+![HasilCoverage](https://github.com/user-attachments/assets/cb4abb14-2b74-4c29-b412-ba67f08bcce4)
+![HasilTest](https://github.com/user-attachments/assets/31b0abc0-4e29-4e63-b245-9880e7f86bdf)
 
 ---
 
-## 🎥 Video Demo
-[DEMO](https://drive.google.com/file/d/1ctIkyPunEKEEexT2ImhjaGeTieQp4PcJ/view?usp=sharing)
+## Video Demo
+[DEMO](https://drive.google.com/drive/folders/1Rb2y3ORZPSpFNfRgpzIEOKcYVbVgLPrU?usp=sharing)
